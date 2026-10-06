@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rubrica di Anna</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
   <body>
@@ -25,28 +25,53 @@
 <!--BOTTONI-->
 
 <section class="container-fluid my-5">
+
     <div class="row">
-        <article class="col-12 col-md-4">
-        <h3 class="text-center">Mostra contatti</h3>
-        <button>Mostra</button>
-        </article>
 
         <article class="col-12 col-md-4">
-        <h3 class="text-center">Aggiungi contatto</h3>
-        <button>Aggiungi</button>
+        <div class="row">
+        <div class="col-12 text-center">
+        <h3  class="text-center">Mostra contatti</h3>
+        <button id="mostraContatti">Mostra</button>
+        </div>
+        </div>
         </article>
 
+
         <article class="col-12 col-md-4">
-        <h3 class="text-center">Cerca contatto</h3> 
-        <input type="inserisci" placeholder="Inserisci contatto"><button class="ms-2">Cerca</button>
+        <div class="row">
+        <div class="col-12 text-center">
+        <h3 class="text-center">Aggiungi nuovo contatto</h3>
+        <input id="inputNome" class="text-center justify-content-start" type="text" placeholder="Inserisci nome" value class="text-center justify-content-start">
+        <input id= "inputNumero" class="text-center justify-content-start" type="text" placeholder="Inserisci numero" value class="text-center justify-content-start">
+        <button id="addBtn" class="mt-2">Aggiungi</button>
+        </div>
+        </div>
+        </article>
+
+        
+        <article class="col-12 col-md-4">
+        <div class="row">
+        <div class="col-12 text-center">
+        <h3 class="text-center">Modifica contatto</h3> 
+        <input id="modificaNome" class ="text-center" type="text" placeholder="Inserisci nome">
+        <input id="modificaNumero" class="text-center" type="text" placeholder="Inserisci nuovo numero">
+        <button id="editBtn" class="mt-2">Modifica</button>
+        </div>
+        </div>
         </article>
         
     </div>
 
     <section class="container-fluid">
-        <div class="row mt-5">
-        <article class="col-12">
-        <h3 class="text-center">I miei contatti</h3>
+        <h3 class="text-center mt-5">I miei contatti</h3>
+        <div class="row justify-content-center mt-5">
+        <article id="colonnaContatti" class="col-8">
+        
+
+
+
+
         </article>
 
 

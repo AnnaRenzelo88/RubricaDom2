@@ -8,7 +8,18 @@ h1{
 }
 
 
+.card-custom{
+    box-shadow: 2px 2px 5px greenyellow;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+
+.bi-trash3:hover{
+    cursor: pointer;
+}
 
 
 
